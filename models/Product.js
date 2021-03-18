@@ -41,6 +41,14 @@ Product.init(
         isNumeric: true // will only allow numbers
       }
     },
+    // Foreign Key matches id in Category
+    category_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: "category",
+        key: "id"
+      }
+    },
   },
   {
     sequelize,
