@@ -28,9 +28,9 @@ router.get('/:id', (req, res) => {
         id: req.params.id
       }
     })
-      .then((categoryId) => {
+      .then((categoryById) => {
         // Send the newly created row as a JSON object
-        res.json(categoryId);
+        res.json(categoryById);
       })
       .catch((err) => {
         res.json(err);
@@ -50,7 +50,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// PUT and DELETE must have a WHERE to limit action
+// *** PUT and DELETE must have a WHERE to limit action ***
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
   Category.update (
