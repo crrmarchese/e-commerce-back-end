@@ -8,11 +8,11 @@ Using the starter code provided, build the back end for an e-commerce site by co
 2. Open your [CLI](https://www.w3schools.com/whatis/whatis_cli.asp).
 3. Run the command line `npm install` for all the dependencies to be installed.
 4. Create a `.env` file with these parameters:
-* DB_USER=''
-* DB_PW=''
-* DB_NAME=''
-5. Fill in your mySQL username in the DB_USER=' ' variable. Fill in your password in the DB_PW='' variable.
-6. Create a database and use that name in the DB_NAME=' ' variable.
+* DB_USER=yourusername
+* DB_PW=yourpassword
+* DB_NAME=yourdatabase
+5. Fill in your mySQL username in the DB_USER= variable. Fill in your password in the DB_PW= variable.
+6. Create a database and use that name in the DB_NAME= variable.
 7. Type `npm run start` to start the application. The database and tables will be created.
 8. Type `npm run seed` to populate the database with data.
 9. Use Postman to test each of the API routes (GET, POST, PUT, DELETE) for categories, products or tags to see what JSON data is returned.
