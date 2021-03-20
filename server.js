@@ -12,6 +12,6 @@ app.use(routes);
 
 // sync sequelize models to the database, then turn on the server
 // change to true to sync the database with updated data
-sequelize.sync({ force: true }).then(() => {
+sequelize.sync({ force: false }).then(() => {
 app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 });
