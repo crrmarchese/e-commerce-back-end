@@ -17,9 +17,9 @@ Using the starter code provided, build the back end for an e-commerce site by co
 8. Type `npm run seed` to populate the database with data.
 9. Use Postman to test each of the API routes (GET, POST, PUT, DELETE) for categories, products or tags to see what JSON data is returned.
 
-## Usage
+## Screenshot
 
-[Video](https://1drv.ms/v/s!AtT3DKFm4NiYhBIlssnBhzg7KXvy)<br />
+![E-commerce back-end](assets/images/screenshot-ecommerce-backend.jpg)<br />
 
 ## Technologies
 * [Node.js](https://nodejs.org/en/)
